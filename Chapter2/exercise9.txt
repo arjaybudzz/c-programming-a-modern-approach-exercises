@@ -1,0 +1,11 @@
+Insert spaces between the tokens in Exercise 8 to make the statement easier to read.
+
+ANSWER:
+
+The example statement in exercise 8:
+
+answer=(3*q-p*p)/3;
+
+If you insert spaces, it will be
+
+answer = (3 * q - p * p) / 3;
