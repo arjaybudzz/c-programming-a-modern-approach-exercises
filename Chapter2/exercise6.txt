@@ -1,0 +1,8 @@
+Why is it not a good idea for an identifier to contain more than one adjacent underscore (as
+in current___balance, for example)
+
+
+ANSWER:
+
+I think it's because of conventions/standards and names having more than one adjacent underscore is commonly reserved if that is the prefix of an
+identifier.
