@@ -1,0 +1,20 @@
+Suppose that we call scanf as follows:
+
+	scanf("%d%f%d", &i, &x, &j);
+
+If the user enters
+
+	10.3 5 6
+
+what will be the values of i, x, and j after the call? (Assume that i and j are int variables
+and x is a float variable.)
+
+ANSWER:
+
+The value of i will be 10 because since the variable is type int, the decimal point will be left since an int
+does not have decimal point. Now, for the value of x, the value will be 0.3 because the decimal point will be
+the first character that will be read by scanf and the variable is type float, it will be assigned to variable x
+and will continue to read until the whitespace character is read. Now, The next one is 5 and it will be put to
+the value of j and therefore, 6 will be left for the next call to scanf.
+
+i = 10, x = 0.3, j = 5 
